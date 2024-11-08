@@ -10,7 +10,8 @@
       "target_sites": [
           "stem-host-1",
           "stem-host-2",
-          "stem-host-5"
+          "stem-host-3",
+          "stem-host-4"
       ],
       "threshold": {
           "cooldown_secs": 60
