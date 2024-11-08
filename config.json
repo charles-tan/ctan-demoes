@@ -9,7 +9,6 @@
       "enabled": true,
       "target_sites": [
           "stem-host-1",
-          "stem-host-2",
           "stem-host-3"
       ],
       "threshold": {
