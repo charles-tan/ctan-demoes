@@ -1,0 +1,19 @@
+[
+  {
+      "rule_name": "breaker_open_close",
+      "rule_type": "event_pair",
+      "event_pair": {
+          "open": "breaker_open",
+          "close": "breaker_closed"
+      },
+      "enabled": true,
+      "target_sites": [
+          "stem-host-1",
+          "stem-host-2",
+          "stem-host-3"
+      ],
+      "threshold": {
+          "cooldown_secs": 60
+      }
+  }
+]
